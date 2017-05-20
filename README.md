@@ -29,3 +29,10 @@ else {
   //Add your javascript for small screens here 
 }
 ```
+
+### CHANGE HTML INLINE STYLE
+```
+jQuery(document).ready(function( $ ){
+  $(".x-gap").css({ "margin": "200px 0 0 0" });
+});
+```
