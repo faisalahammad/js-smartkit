@@ -45,8 +45,10 @@ jQuery(document).ready(function( $ ){
 
 ### Redirect User to another website 
 <strong>JavaScript</strong>
-```js
-window.location.href = "http://example.com";
+```html
+<script type="text/javascript">
+    window.location.href = "http://example.com";
+</script>
 ```
 <strong>HTML</strong>
 ```html
