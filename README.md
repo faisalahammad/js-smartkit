@@ -43,6 +43,12 @@ jQuery(document).ready(function( $ ){
 });
 ```
 
+### CHANGE HREF / URL
+```javascript
+$("a").attr("href", "http://www.google.com/")
+```
+
+
 ### Redirect User to another website 
 <strong>JavaScript</strong>
 ```html
