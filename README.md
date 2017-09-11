@@ -48,6 +48,14 @@ jQuery(document).ready(function( $ ){
 $("a").attr("href", "http://www.google.com/")
 ```
 
+### SET WIDTH
+```javascript
+document.getElementById('header').style.width = '50%';
+// or
+$("#id").width('30%');
+// or
+$("#id").css("width", "50%");
+```
 
 ### Redirect User to another website 
 <strong>JavaScript</strong>
