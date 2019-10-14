@@ -85,6 +85,20 @@ $("#id").css("width", "50%");
 
 ---
 
+### How to dynamically select option in dropdown menu
+
+```javascript
+// Using the value:
+$('#id/.class').val( 3 );
+
+// Using the text:
+$('#id/.class option').filter(function() { 
+    return ($(this).text() == 'Blue'); //To select Blue
+}).prop('selected', true);
+```
+
+---
+
 ### Redirect User to another website 
 <strong>JavaScript</strong>
 ```html
