@@ -1,6 +1,7 @@
-<<<<<<< HEAD
 # JS SMARTKIT
 JavaScript complicated solution in just few lines code. Don't forgot to put your code inside
+
+### jQuery wrapper for WP/Shopify/CJ
 ```javascript
 jQuery(document).ready(function( $ ){
     // Put your code there
@@ -8,27 +9,17 @@ jQuery(document).ready(function( $ ){
 ```
 
 ---
-=======
-# JS-SMARTKIT
-
-JavaScript complicated solution in just few links code. &lt;3
->>>>>>> c025a46c876b7ea60b223b00f4423c8c3d839b70
 
 ### CHANGE HTML TAG
 
 ```javascript
+// Replace `span` with your targeted tag, replace `<div>` with your own tag.
 $('span').each(function() {
   $(this).replaceWith($('<div>' + this.innerHTML + '</div>'));
 });​
 ```
 
-**Replace `span` with your targeted tag, replace `<div>` with your own tag.**
-
-<<<<<<< HEAD
 ---
-=======
-<hr>
->>>>>>> c025a46c876b7ea60b223b00f4423c8c3d839b70
 
 ### ADD HTML CODE BEFORE SPECIFIC TAG
 
@@ -40,13 +31,7 @@ jQuery(document).ready(function($) {
 });
 ```
 
-**Replace with your Class, HTML code there.**
-
-<<<<<<< HEAD
 ---
-=======
-<hr>
->>>>>>> c025a46c876b7ea60b223b00f4423c8c3d839b70
 
 ### WORK WITH SPECIFIC SCREEN SIZE
 
@@ -61,11 +46,8 @@ if ($(window).width() > 739) {
 }
 ```
 
-<<<<<<< HEAD
 ---
-=======
-<hr>
->>>>>>> c025a46c876b7ea60b223b00f4423c8c3d839b70
+
 
 ### CHANGE HTML INLINE STYLE
 
@@ -75,11 +57,8 @@ jQuery(document).ready(function($) {
 });
 ```
 
-<<<<<<< HEAD
 ---
-=======
-<hr>
->>>>>>> c025a46c876b7ea60b223b00f4423c8c3d839b70
+
 
 ### REPLACE HTML CONTENT
 
@@ -89,11 +68,7 @@ jQuery(document).ready(function( $ ){
 });
 ```
 
-<<<<<<< HEAD
 ---
-=======
-<hr>
->>>>>>> c025a46c876b7ea60b223b00f4423c8c3d839b70
 
 ### CHANGE HREF / URL
 
@@ -101,7 +76,6 @@ jQuery(document).ready(function( $ ){
 $("a").attr("href", "http://www.google.com/");
 ```
 
-<<<<<<< HEAD
 ---
 
 ### OPEN URL ON NEW TAB
@@ -110,9 +84,6 @@ $(".class a").attr("target", "_blank");
 ```
 
 ---
-=======
-<hr>
->>>>>>> c025a46c876b7ea60b223b00f4423c8c3d839b70
 
 ### SET WIDTH
 
@@ -124,7 +95,7 @@ $("#id").width("30%");
 $("#id").css("width", "50%");
 ```
 
-<<<<<<< HEAD
+
 ---
 
 ### How to dynamically select option in dropdown menu
@@ -139,11 +110,8 @@ $('#id/.class option').filter(function() {
 }).prop('selected', true);
 ```
 
----
 
-### Redirect User to another website 
-=======
-<hr>
+---
 
 ### Find Current & Next Month
 
@@ -178,9 +146,6 @@ Create 2 id `nowMonth & nextMonth` to display on the frontend.
 <hr>
 
 ### Redirect User to another website
-
->>>>>>> c025a46c876b7ea60b223b00f4423c8c3d839b70
-<strong>JavaScript</strong>
 
 ```html
 <script type="text/javascript">
