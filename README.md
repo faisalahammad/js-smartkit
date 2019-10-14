@@ -1,5 +1,12 @@
-# JS-SMARTKIT
-JavaScript complicated solution in just few links code. &lt;3
+# JS SMARTKIT
+JavaScript complicated solution in just few lines code. Don't forgot to put your code inside
+```javascript
+jQuery(document).ready(function( $ ){
+    // Put your code there
+});
+```
+
+---
 
 ### CHANGE HTML TAG
 ```javascript
@@ -9,6 +16,8 @@ $('span').each(function() {
 ```
 **Replace `span` with your targeted tag, replace `<div>` with your own tag.**
 
+---
+
 ### ADD HTML CODE BEFORE SPECIFIC TAG
 ```javascript
 jQuery(document).ready(function( $ ){
@@ -16,6 +25,8 @@ jQuery(document).ready(function( $ ){
 });
 ```
 **Replace with your Class, HTML code there.**
+
+---
 
 ### WORK WITH SPECIFIC SCREEN SIZE
 After you have added jQuery you can use the following code in your custom javascript file. You may change the __"739"__ to a different number depending on the device resolution you are targeting.
@@ -29,12 +40,16 @@ else {
 }
 ```
 
+---
+
 ### CHANGE HTML INLINE STYLE
 ```javascript
 jQuery(document).ready(function( $ ){
   $(".x-gap").css({ "margin": "200px 0 0 0" });
 });
 ```
+
+---
 
 ### REPLACE HTML CONTENT
 ```Javascript
@@ -43,10 +58,21 @@ jQuery(document).ready(function( $ ){
 });
 ```
 
+---
+
 ### CHANGE HREF / URL
 ```javascript
 $("a").attr("href", "http://www.google.com/")
 ```
+
+---
+
+### OPEN URL ON NEW TAB
+```javascript
+$(".class a").attr("target", "_blank");
+```
+
+---
 
 ### SET WIDTH
 ```javascript
@@ -56,6 +82,8 @@ $("#id").width('30%');
 // or
 $("#id").css("width", "50%");
 ```
+
+---
 
 ### Redirect User to another website 
 <strong>JavaScript</strong>
