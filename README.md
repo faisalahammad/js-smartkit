@@ -143,7 +143,16 @@ monthsList();
 
 Create 2 id `nowMonth & nextMonth` to display on the frontend.
 
-<hr>
+---
+
+### Check Sibling of Class or ID
+```js
+if ( $('.wrapper button.btn').siblings('#rc_container') ) {
+  $('button.btn').text('Subscribe');
+}
+```
+
+---
 
 ### Redirect User to another website
 
