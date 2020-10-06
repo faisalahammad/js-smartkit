@@ -167,3 +167,16 @@ if ( $('.wrapper button.btn').siblings('#rc_container') ) {
 ```html
 <meta http-equiv="refresh" content="0; url=http://example.com/" />
 ```
+
+---
+
+### Disable Past date pick on YITH Checkout (date input)
+```js
+jQuery(document).ready(function( $ ){
+  // Getter
+  var minDate = $( "#billing_event_date" ).datepicker( "option", "minDate" );
+
+  // Setter
+  $( "#billing_event_date" ).datepicker( "option", "minDate", new Date() );
+});
+```
