@@ -178,5 +178,10 @@ jQuery(document).ready(function( $ ){
 
   // Setter
   $( "#billing_event_date" ).datepicker( "option", "minDate", new Date() );
+
+  $('#ui-datepicker-div').hide();
+  $('#billing_event_date').click(function(){
+    $('#ui-datepicker-div').show();
+  })
 });
 ```
